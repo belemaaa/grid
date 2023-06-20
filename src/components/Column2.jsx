@@ -23,7 +23,7 @@ const Column2 = () => {
           <div className='max-w-sm ml-4 text-justify'>
             <p className='text-lg'>Framer Motion (for React) #1 - <br/> Introduction</p>
             <p className='text-white text-opacity-50 text-xs'>The Net Naija <span className='ml-6'>198k Views</span></p>
-            <p className='text-xs text-white text-opacity-50 mt-3'>Hey gang - welcome to your first Frame Motion (for React) tutorial. In 
+            <p className='text-xs text-white text-opacity-50 mt-1'>Hey gang - welcome to your first Frame Motion (for React) tutorial. In 
             this tutorial, I'll explain what Framer Motion is and what you'll need t...
             </p>
           </div>
@@ -53,7 +53,7 @@ const Column2 = () => {
           <div className='max-w-sm ml-4 text-justify'>
             <p className='text-lg'>Paystack Payment Verification<br/> integration in Python Django</p>
             <p className='text-white text-opacity-50 text-xs'>BiggiDroid<span className='ml-6'>3.4k Views</span></p>
-            <p className='text-xs text-white text-opacity-50 mt-4'>Getting Paystack payment verification integration is one of the best
+            <p className='text-xs text-white text-opacity-50 mt-1'>Getting Paystack payment verification integration is one of the best
             ideas to accept payments on an e-commerce website. Sourcecode:...
             </p>
           </div>
