@@ -10,7 +10,7 @@ import {IoIosNotificationsOutline} from 'react-icons/io'
 const NavBar = () => {
   return (
     <div className='bg-black flex grid-cols-3'>
-        <div className='flex flex-col-2 w-1/4'>
+        <div className='flex grid-cols-2 w-1/4'>
             <div className='text-white mx-5 my-5'>
                 <FaBars size={30}/>
             </div>
@@ -19,7 +19,7 @@ const NavBar = () => {
             </div>
         </div>
 
-        <div className='flex items-center grid-cols-3 w-3/4'>
+        <div className='flex items-center justify-center grid-cols-3 w-1/2'>
             <div className='border border-gray-500 flex h-10 rounded-s-2xl'>
                 <p className='text-white flex ml-4 pt-2 py-5'>Search</p>
                 <FaTimes size={30} className='flex pt-2 ml-80 text-white font-thin'/>
@@ -32,8 +32,16 @@ const NavBar = () => {
             </div>
         </div>
 
-        <div>
-            
+        <div className='flex grid-cols-3 items-end justify-end w-1/4 my-5'>
+            <div>
+                <BiVideoPlus size={30} className='text-white mr-6'/>
+            </div>
+            <div>
+                <IoIosNotificationsOutline size={30} className='text-white mr-6'/>
+            </div>
+            <div className='bg-orange-600 rounded-full mr-6'>
+                <p className=' text-white px-3 py-1'>G</p>
+            </div>
         </div>
 
     </div>
