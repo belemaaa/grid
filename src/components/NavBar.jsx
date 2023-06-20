@@ -11,8 +11,8 @@ const NavBar = () => {
   return (
     <div className='bg-black flex grid-cols-3'>
         <div className='flex grid-cols-2 w-1/4'>
-            <div className='text-white mx-5 my-5'>
-                <FaBars size={30}/>
+            <div className='text-white mx-5 mt-6 mb-5'>
+                <FaBars size={20}/>
             </div>
             <div className='text-white flex grid-cols-2 text-xl my-5 ml-5'>
                 <SiYoutube size={30} className='text-red-600'/>YouTube<span className='text-gray-500 text-xs mt-0'>NG</span>
