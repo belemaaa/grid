@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <MainPage/>
+  
     </div>
   );
 }
