@@ -19,10 +19,21 @@ const NavBar = () => {
             </div>
         </div>
 
-        <div className='grid grid-cols-2 w-1/2 my-5'>
-            <div className='border border-gray-500 flex grid-cols-2 h-10 rounded-3xl'>
-                <p className='text-white'>Search</p>
+        <div className='flex items-center grid-cols-3 w-3/4'>
+            <div className='border border-gray-500 flex h-10 rounded-s-2xl'>
+                <p className='text-white flex ml-4 pt-2 py-5'>Search</p>
+                <FaTimes size={30} className='flex pt-2 ml-80 text-white font-thin'/>
             </div>
+            <div>
+                <AiOutlineSearch size={40} className='text-white bg-gray-500 px-2 rounded-e-3xl'/> 
+            </div>
+            <div>
+                <MdKeyboardVoice size={40} className='bg-gray-800 bg-opacity-50 text-white ml-3 px-2 rounded-full'/>
+            </div>
+        </div>
+
+        <div>
+            
         </div>
 
     </div>
