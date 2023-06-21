@@ -8,7 +8,7 @@ const MainPage = () => {
     <div className="flex grid-cols-3">
         <Column1 className=""/>
         <Column2 className=""/>
-        
+        <Column3/>
     </div>
   )
 }
