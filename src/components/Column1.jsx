@@ -12,7 +12,7 @@ import {HiFire} from 'react-icons/hi'
 
 const Column1 = () => {
   return (
-    <div className='flex items-start justify-start w-60 bg-black flex-row'>
+    <div className='flex items-start justify-start w-60 bg-black'>
       <div className='mt-6 text-white text-xs'>
         <div className='mb-5 flex flex-row'>
           <GoHome size={20} className='ml-4 mr-8'/>
